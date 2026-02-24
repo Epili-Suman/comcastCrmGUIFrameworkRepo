@@ -1,10 +1,17 @@
 package com.comcast.crm.objectrepositoryutility;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class Leads
 {
+	public Leads(WebDriver driver)
+	{
+		PageFactory.initElements(driver,this);
+	}
+	
 	@FindBy(xpath="Create Leads...")
 	private WebElement element;
 
@@ -12,7 +19,7 @@ public class Leads
 	{
 		return element;
 	}
-	
+
 	@FindBy(xpath="Create Leads...")
 	private WebElement element2;
 }

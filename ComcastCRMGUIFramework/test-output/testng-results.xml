@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-18T11:10:27 IST" name="Default suite" finished-at="2026-02-18T11:13:54 IST" duration-ms="206765">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" name="createOrgTest" class="com.crm.comcast.orgtest.CreateOrgTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2026-02-18T11:10:27 IST" name="Default test" finished-at="2026-02-18T11:13:54 IST" duration-ms="206765">
+      <class name="com.crm.comcast.orgtest.CreateOrgTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" started-at="2026-02-18T11:06:34 IST" name="BS" finished-at="2026-02-18T11:10:27 IST" duration-ms="233372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" started-at="2026-02-18T11:10:27 IST" name="BC" finished-at="2026-02-18T11:11:44 IST" duration-ms="76671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" started-at="2026-02-18T11:11:44 IST" name="BM" finished-at="2026-02-18T11:12:44 IST" duration-ms="60503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="createOrgTest()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" started-at="2026-02-18T11:12:44 IST" name="createOrgTest" finished-at="2026-02-18T11:13:26 IST" duration-ms="41448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" started-at="2026-02-18T11:13:26 IST" name="AM" finished-at="2026-02-18T11:13:50 IST" duration-ms="23636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" started-at="2026-02-18T11:13:50 IST" name="AC" finished-at="2026-02-18T11:13:54 IST" duration-ms="4433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:com.crm.comcast.orgtest.CreateOrgTest@624ea235]" started-at="2026-02-18T11:13:54 IST" name="AS" finished-at="2026-02-18T11:13:56 IST" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- com.crm.comcast.orgtest.CreateOrgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

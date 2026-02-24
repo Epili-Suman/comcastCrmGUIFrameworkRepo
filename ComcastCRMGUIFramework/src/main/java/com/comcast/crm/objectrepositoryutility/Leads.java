@@ -8,7 +8,8 @@ public class Leads
 	@FindBy(xpath="Create Leads...")
 	private WebElement element;
 
-	public WebElement getElement() {
+	public WebElement getElement() 
+	{
 		return element;
 	}
 }

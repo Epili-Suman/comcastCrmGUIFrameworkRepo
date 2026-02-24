@@ -1,5 +1,10 @@
 package com.comcast.crm.objectrepositoryutility;
 
-public class Leads {
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
+public class Leads 
+{
+	@FindBy(xpath="Create Leads...")
+	private WebElement element;
 }

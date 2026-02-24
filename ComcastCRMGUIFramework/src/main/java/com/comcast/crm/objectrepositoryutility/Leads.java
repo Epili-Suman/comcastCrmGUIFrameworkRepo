@@ -12,4 +12,7 @@ public class Leads
 	{
 		return element;
 	}
+	
+	@FindBy(xpath="Create Leads...")
+	private WebElement element2;
 }

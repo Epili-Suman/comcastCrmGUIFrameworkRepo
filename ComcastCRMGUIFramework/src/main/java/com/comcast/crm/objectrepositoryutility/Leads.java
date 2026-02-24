@@ -12,6 +12,10 @@ public class Leads
 		PageFactory.initElements(driver,this);
 	}
 	
+	public WebElement getElement2() {
+		return element2;
+	}
+
 	@FindBy(xpath="Create Leads...")
 	private WebElement element;
 
